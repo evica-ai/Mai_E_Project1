@@ -1,0 +1,75 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Times New Roman, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+#container
+{
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#mainNav ul
+{
+	width: 300px;
+	background-color: #367eb0;
+	color: #fff;
+}
+
+#mainNav ul li
+{
+	border-bottom: 2px solid #1065a1;
+	border-top: 2px solid #4889b7;
+	padding: 15px;
+}
+
+#mainNav ul li:first-child
+{
+	border-top: none;
+}
+
+#mainNav ul li:last-child
+{
+	border-top: none;
+}
+
+#game
+{
+	margin-top: 50px;
+}
+
+#game ul
+{
+	width: 600px;
+}
+
+/*highlights which row the backhround color will be*/
+/*or even in brackets*/
+#game ul li:nth-child(2n)
+{
+	background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
